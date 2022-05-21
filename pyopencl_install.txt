@@ -1,0 +1,6 @@
+AMD
+pip install --global-option=build_ext --global-option="-IC:\Program Files (x86)\OCL_SDK_Light\include" --global-option="-LC:\Program Files (x86)\OCL_SDK_Light\lib\x86_64" pyopencl
+
+NVIDIA
+pip install --global-option=build_ext --global-option="-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" --global-option="-LC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\lib\x64" pyopencl
+
